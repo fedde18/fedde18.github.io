@@ -1,0 +1,112 @@
+
+#logogoogle {
+    height: 30px;
+     width: 92px;
+     margin:10px;
+}
+
+#placeholder {
+  margin:10px;
+  
+  height: 25px;
+  width: 614px;
+  border-radius: 18px;
+  border-color: transparent;
+  box-shadow: 1px 1px 2px gray;
+  
+  }
+  
+  #placeholder:hover {
+   box-shadow: 3px 3px 6px gray;
+    
+  }
+
+  .googleplace{
+    display:flex;
+  }
+
+.topbar {
+  display:flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+#loginbarra {
+  display:flex;
+  
+}
+
+.icons {
+  width:24px;
+  height:24px;
+  margin:2px;
+}
+
+#imagenlogin {
+  border-radius:50%;
+  width:30px;
+  height:30px;
+}
+
+
+
+.imgs {
+  width: 130px;
+  height: 130px;
+  
+  margin: 5px;
+}
+
+.imagenes {
+  max-width: 30%;
+  margin: 0;
+}
+
+#imagenesbusqueda {
+  margin-top: 10px;
+  width: 634px;
+  margin-left: 112px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  
+  
+  }
+  
+  #barraopciones{
+    
+  margin-top: 10px;
+  width: 634px;
+  height: 48px;
+  margin-left: 112px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px  solid grey;
+  }
+  
+  label{
+    font-size: 14px;
+    font-family: Google Sans,arial,sans-serif;
+    opacity: 0.7;
+  }
+  
+  .contenidobusqueda {
+  
+  display:row;
+  margin-top: 30px;
+  width: 600px;
+  margin-left: 112px;
+  
+  }
+  
+  a {
+    font-size: 20px;
+    font-family: arial,sans-serif;
+  }
+  
+  
+

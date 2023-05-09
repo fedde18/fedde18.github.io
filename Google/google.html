@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asdSad - Buscar con Google</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="topbar">
+
+      <div class="googleplace">
+        <div>
+        <img id="logogoogle" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
+        </div>
+        
+        <div id="textarea">
+        <input id="placeholder" type="placeholder">
+        </div>
+        </div>
+        
+        <div id="loginbarra">
+        <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+          <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+          <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+        </svg>
+        <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        </svg>
+        <img class="icons" id="imagenlogin"  src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" width="20" height="20">
+        </div>
+        
+        </div>
+        
+        <div id="barraopciones">
+        
+        <div class="contenidovertical" >
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg><label for="todos" > Todos </label>
+        </div>
+          
+        <div class="contenidovertical">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+          <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+          <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+        </svg><label for="mixes" > Imagenes </label>
+        </div>
+          
+         <div class="contenidovertical">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+          <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+          <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+        </svg><label for="musica" > Noticias </label>
+         </div>
+          
+         <div class="contenidovertical">  
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>
+        </svg><label for="Noticias" > Videos </label>
+         </div>
+         
+         <div class="contenidovertical">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+          <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+          <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+        </svg><label for="Turismo" > Shopping </label>
+         </div>
+         
+         <div class="contenidovertical">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        </svg><label for="Entiemporeal" > Mas </label>
+         </div>
+         
+         <div class="contenidovertical">
+         <label for="Entiemporeal" >Herramientas </label>
+         </div>
+        
+        
+        
+        </div>
+        
+        
+        <div class="contenidobusqueda">
+        <a>Imágenes de asdsad
+        </a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        </svg>
+        
+        </div>
+        <div id="imagenesbusqueda">
+             <div class="imagenes">
+               <img class="imgs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLLyup58AM85CuR2fsNf7YgEuxpAyVBh7vkEXo60yq&s">
+             </div>
+             
+             <div class="imagenes">
+               <img class="imgs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9eR87td5xgoNM1-t7LxpJUg9jqK1InE7CWXdSSO-8TA&s">
+             </div>
+             
+            
+             
+            <div class="imagenes">
+            <img class="imgs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiGX9cFsnzjr9qRdMTczxQqtxnJW_73vuSHkQ1kslyEw&s">
+             </div>
+             
+             
+             
+             <div class="imagenes">
+            <img class="imgs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpPL1ws6um2n0KN-2YL_mwy_3Dr9Hajd4zA3V0ExKSDA&s">
+             </div>
+        
+        </div>
+        
+        <div class="contenidobusqueda">
+        <a  href="https://www.amazon.com/-/es/Libros-ASdsad/s?rh=n%3A283155%2Cp_27%3AASdsad" target=_blank>ASdsad: Libros - Amazon.com</a>
+        <br>
+        <label>Edición en Italiano | por asdsad asdasf · Edición Kindle. US$0.00US$0.00. Gratis con la membresía Kindle Unlimited. Disponible al instante.
+        </label>
+        </div>
+        <div class="contenidobusqueda">
+        <a  href="https://listado.mercadolibre.com.ar/asdsad" target=_blank>Asdsad | MercadoLibre</a>
+        <br>
+        <label>Envíos Gratis en el día ✓ Comprá Asdsad en cuotas sin interés! Conocé nuestras increíbles ofertas y promociones en millones de productos.</label>
+        </div>
+        <div class="contenidobusqueda">
+        <a  href="https://www.sas.com/es_mx/events/13q3/test-va-hands-on-septiembre1/asdsad.html" target=_blank>asdsad - SAS Institute</a>
+        <br>
+        <label>Inicio · Events · 2013Q3; asdsad. La curiosidad es nuestro código. Las soluciones analíticas de SAS transforman los datos en inteligencia, inspirando a ...</label>
+        </div>
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        
+        
+         
+</body>
+</html>

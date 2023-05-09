@@ -1,0 +1,163 @@
+#top-bar{
+    background-color: yellow;
+    display: flex;
+    height: 40px;
+    align-items:center;
+   
+  }
+  
+  .barravertical {
+    
+   
+    height: 40px ;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    background-color: #ffff00;
+    display:flex;
+    font-family: "Proxima Nova";
+    
+    }
+    
+    
+    
+    .contenidovertical{
+      opacity:0.6;
+      font-size: 12px;
+      
+     
+      
+    }
+    
+    .contenidovertical:hover{
+     opacity: 1;
+     }
+     
+     .barraverticalderecha {
+      margin-left: 35%;
+      
+      
+      flex-wrap: nowrap;
+      
+      
+     }
+     
+  
+  .barra-productos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    }
+  
+  .productos {
+    
+    margin-right: 10px;
+    flex-wrap: nowrap;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    padding: 20px;  
+    box-shadow: 3px 3px 5px gray; 
+  }
+  
+  .productos:hover{
+    box-shadow: 3px 3px 10px blue; 
+    transform: scale(1.05);
+  }
+  
+  p{
+    font-family: "Arial Black";
+  }
+  
+  p1{
+    font-family: Helvetica;
+    color: green;
+  }
+  
+  .envio{
+    color: green;
+    font-family: "Arial Black";
+  }
+  
+  
+  
+  #top-deslizante {
+      
+      margin: auto;
+      background-color: white;
+      
+      width: 100%;
+      
+      
+  }
+  
+  #top-deslizante>ul,
+  li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  #top-deslizante>ul.slider {
+      position: relative;
+      
+      width: 100%;
+      height: 300px;
+  }
+  
+  
+  
+  #top-deslizante>ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity 1s;
+      background: #fff;
+  }
+  
+  #top-deslizante>ul.slider li img {
+      width: 100%;
+      height: 300px;
+      
+  }
+  
+  #top-deslizante>ul.slider li:first-child {
+      opacity: 1;
+      
+  }
+  
+  #top-deslizante>ul.slider li:target {
+      opacity: 1;
+     
+  }
+  
+  
+  
+  #top-deslizante>.menu {
+      text-align: center;
+      margin: 10px;
+  }
+  
+  #top-deslizante>.menu li {
+      display: inline-block;
+      text-align: center;
+  }
+  
+  #top-deslizante>.menu li a {
+      display: inline-block;
+      background-color: grey;
+      margin-right: 10px;
+      width: 10px;
+      height: 10px;
+      border-radius: 90%;
+  }
+  
+  #placeholder{
+    width: 450px;
+    height: 25px;
+    
+  }
