@@ -1,0 +1,184 @@
+.contenedor-grid {
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+  
+    grid-template-areas:
+      "topbar    topbar topbar topbar topbar"
+      "sidebar   story  story  story  messages"
+      "sidebar   post   post   post   messages"
+      "sidebar   post   post   post   messages"
+      "sidebar   post   post   post   messages"
+      "sidebar   post   post   post   messages"
+      "sidebar   post   post   post   messages"
+      "sidebar   post   post   post   messages"
+      
+     
+     
+      
+  }
+  
+  #barra-superior {
+    grid-area: topbar;
+    background-color: white;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+    box-shadow: 0px 1px 2px grey;
+    z-index: 1;
+  }
+  
+  #logo {
+    height: 30px;
+  }
+  
+  #barra-lateral {
+    grid-area: sidebar;
+  
+  
+    background-color: #f7f7f7;
+  
+    align-items: center;
+  
+  
+  }
+  
+  #historias {
+    
+    grid-area: story;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+  
+  }
+  
+  #mensajes {
+  
+    grid-area: messages;
+  
+  
+  
+  
+  }
+  
+  #contactos {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  
+  }
+  
+  #cumpleanos {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+  
+  }
+  
+  .itemscontactos {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #feed {
+    grid-area: post;
+    
+    border-top: 1px solid grey;
+    
+  }
+  
+  #pensando {
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+    gap: 10px;
+    
+    
+  }
+  
+  .imagencontactos {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+  }
+  
+  #imagenlogin{
+    
+    border-radius: 50%;
+    overflow: hidden;
+    
+  }
+  
+  #loginbarra {
+    display:flex;
+    align-items: center;
+    
+    
+  }
+  
+  
+  #buscar {
+    display:flex;
+    align-items: center;
+    
+    
+  }
+  
+  .posteos{
+    margin: 5px;
+    border-top: 1px solid grey;
+    
+  }
+  
+  .iconologinbarra {
+    margin-right: 5px;
+    margin-left: 5px;
+    
+  }
+  
+  
+  .imagenes {
+    max-width: 30%;
+    margin: 0;
+  }
+  
+  .imgs {
+    width: 50px;
+    height: 80px;
+    border-radius: 20%;
+    margin: 5px;
+  }
+  
+  .imagenesposteos{
+    width: 450px;
+    height: 250px;
+  }
+  
+  p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Arial";
+  }
+  
+  p-hover {
+    background-color: grey;
+  
+  }
+  
+  h2 {
+    opacity: 0.7;
+  
+  }
+  
